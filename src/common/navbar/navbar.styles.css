@@ -1,0 +1,55 @@
+.navbar-container{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0  20px;
+    border-bottom: 2px solid #dc7640;
+}
+.soportic-logo{
+    width: 60px;
+}
+.navbar-container ol{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.company-brand{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.soportic-name{
+    margin-top: 8px;
+    color: orange;
+    text-align: center;
+}
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: black;
+}
+
+@media (max-width: 528px) {
+    .navbar-container {
+      height: auto;
+      padding: 10px 20px;
+     display: flex;
+     justify-content: center;
+    }
+  
+    .company-brand {
+      margin-bottom: 10px;
+    }
+  
+    .navbar-list {
+      justify-content: center;
+    }
+  
+    .navbar-list-item {
+      font-size: 14px;
+    }
+  }

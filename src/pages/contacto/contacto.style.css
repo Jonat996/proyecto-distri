@@ -1,0 +1,17 @@
+.contacto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.618);
+    padding-bottom: 20px;
+}
+.social-icons{
+    display: flex;
+    gap: 15px;
+  
+}
+.icon{
+    font-size: 30px;
+    color: white;
+}
